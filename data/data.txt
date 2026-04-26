@@ -1,0 +1,111 @@
+Artificial Intelligence (AI) is a branch of computer science focused on building systems that can perform tasks that typically require human intelligence. These tasks include reasoning, learning, problem-solving, perception, and language understanding.
+
+Machine Learning (ML) is a subset of Artificial Intelligence that enables systems to learn from data instead of being explicitly programmed. ML models improve their performance as they are exposed to more data.
+
+Deep Learning is a specialized area of Machine Learning that uses neural networks with multiple layers to learn complex patterns in large datasets. It is widely used in image recognition, speech processing, and natural language processing.
+
+Natural Language Processing (NLP) is a field of AI that focuses on enabling machines to understand, interpret, and generate human language. Applications include chatbots, translation systems, and sentiment analysis.
+
+Computer Vision is a domain of AI that enables machines to interpret and understand visual information from images and videos. It is used in applications like facial recognition, object detection, and autonomous vehicles.
+
+Reinforcement Learning is a type of machine learning where an agent learns by interacting with an environment and receiving rewards or penalties based on its actions.
+
+A Large Language Model (LLM) is a type of deep learning model trained on vast amounts of text data to understand and generate human-like language. Examples include GPT models and LLaMA models.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation. Instead of relying only on the model's internal knowledge, RAG retrieves relevant documents from a database and uses them as context for generating responses.
+
+In a RAG system, the pipeline typically consists of:
+1. Document loading
+2. Text splitting into chunks
+3. Generating embeddings
+4. Storing embeddings in a vector database
+5. Retrieving relevant chunks based on a query
+6. Passing retrieved context to a language model for answer generation
+
+Embeddings are numerical vector representations of text that capture semantic meaning. Similar texts have similar embeddings, which allows efficient similarity search.
+
+A Vector Database stores embeddings and enables fast similarity search. Examples include ChromaDB, FAISS, and Pinecone.
+
+Chunking is the process of breaking large documents into smaller pieces so that they can be efficiently processed and retrieved.
+
+The retriever is responsible for finding the most relevant chunks from the vector database based on a user's query.
+
+The generator (LLM) takes the retrieved context and produces a final answer.
+
+Prompt Engineering is the process of designing effective prompts to guide the behavior of language models.
+
+Hallucination in AI refers to when a model generates incorrect or fabricated information. RAG helps reduce hallucination by grounding responses in real data.
+
+Fine-tuning is the process of training a pre-trained model on a specific dataset to improve performance for a particular task.
+
+Transfer Learning allows models trained on one task to be adapted for another related task.
+
+Overfitting occurs when a model performs well on training data but poorly on unseen data.
+
+Underfitting occurs when a model fails to learn patterns in the data.
+
+Supervised Learning involves training a model using labeled data.
+
+Unsupervised Learning involves training a model using unlabeled data.
+
+Semi-supervised Learning combines both labeled and unlabeled data.
+
+A dataset is a collection of data used for training and evaluating machine learning models.
+
+Training data is used to teach the model, while test data is used to evaluate its performance.
+
+Evaluation metrics include accuracy, precision, recall, and F1-score.
+
+Accuracy measures the proportion of correct predictions.
+
+Precision measures how many predicted positives are actually correct.
+
+Recall measures how many actual positives are correctly identified.
+
+F1-score is the harmonic mean of precision and recall.
+
+Hyperparameters are configuration settings used to control the training process of a model.
+
+Gradient Descent is an optimization algorithm used to minimize loss functions in machine learning.
+
+A loss function measures how well a model's predictions match the actual data.
+
+Neural Networks are computational models inspired by the human brain.
+
+A neuron receives input, applies a transformation, and produces an output.
+
+Activation functions introduce non-linearity into neural networks.
+
+Common activation functions include ReLU, sigmoid, and tanh.
+
+Backpropagation is the process of updating model weights based on error gradients.
+
+Epoch refers to one complete pass through the training dataset.
+
+Batch size determines how many samples are processed at once.
+
+Inference is the process of using a trained model to make predictions.
+
+Latency refers to the time taken to generate a response.
+
+Throughput refers to how many requests a system can handle.
+
+Model quantization reduces model size and improves performance on low-resource systems.
+
+Edge AI refers to running AI models on local devices instead of cloud servers.
+
+Local LLMs (like Ollama models) allow private, offline AI applications.
+
+Streamlit is a Python framework used to build interactive web apps for machine learning and AI.
+
+LangChain is a framework used to build applications with LLMs, especially RAG systems.
+
+Chroma is an open-source vector database used for storing embeddings.
+
+Ollama is a tool used to run large language models locally on your machine.
+
+A RAG chatbot is an AI system that answers questions using both retrieval and generation.
+
+The main advantage of RAG is improved accuracy and reduced hallucination.
+
+The main limitation of RAG is dependency on the quality of the data and retrieval process.
