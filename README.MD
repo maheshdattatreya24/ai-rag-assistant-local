@@ -112,7 +112,7 @@ When a user asks a question:
 
 ## 📂 Project Structure
 
-
+```
 ai-rag-assistant-local/
 │
 ├── app.py # Streamlit UI application
@@ -129,7 +129,7 @@ ai-rag-assistant-local/
 ├── data/ # Optional sample documents
 │
 └── .gitignore # Ignored files (venv, db, uploads, etc.)
-
+```
 
 ---
 
