@@ -5,7 +5,7 @@ A complete **Retrieval-Augmented Generation (RAG)** system that enables users to
 This project demonstrates how modern AI systems reduce hallucination by combining **information retrieval** with **text generation**.
 
 ---
-
+   
 ## 📌 Overview
 
 Traditional LLMs generate answers based only on their training data, which can lead to outdated or incorrect responses (hallucination).
