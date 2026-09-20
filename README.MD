@@ -3,7 +3,7 @@
 A complete **Retrieval-Augmented Generation (RAG)** system that enables users to upload documents (PDF/TXT) and ask questions with accurate, context-aware responses using a **local Large Language Model (LLM)**.
 
 This project demonstrates how modern AI systems reduce hallucination by combining **information retrieval** with **text generation**.
-     
+
 ---
    
 ## 📌 Overview
